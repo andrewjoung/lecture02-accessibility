@@ -7,19 +7,25 @@
 </head>
 <body>
 
-  <div>
+  <header role="banner">
     <h1>My Awesome Blog</h1>
     <p>Where I post about stuff</p>
-  </div>
+  </header>
 
-  <div>
-    <div>
-      <div>
+  <nav>
+    <ul>
+      <li><a href="#post1">Post 1</a></li>
+    </ul>
+  </nav>
+
+  <main role="main">
+    <section role="region" id="post1">
+      <header class="blog-title">
         <h2>Check it out!</h2>
         <p>Posted today</p>
-      </div>
+      </header>
       <p>Check out this cute puppy!</p>
-      <p><img src="img/gzvWJQMuibX5ISaVpCu17h.jpg"></p>
+      <p><img src="img/gzvWJQMuibX5ISaVpCu17h.jpg" alt="cute puppy"></p>
       <p>Also, lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ea amet rem vel ipsa odit esse iste facilis inventore earum.</p>
       <p>Lorem ipsum dolor sit!</p>
     </div>
@@ -53,7 +59,7 @@
     </div>
   </div>
 
-  <div>
+  <div role="contentinfo">
     <p>This blog was created by me using my own two hands. Some text grabbed from <a href="https://getbootstrap.com/examples/blog/">Bootstrap's blog example</a>.</p>
     <p>&copy; 2016 The Author.</p>
   </div>
